@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Student;
 
+
 class StudentController extends Controller
 {
 
@@ -20,8 +21,9 @@ class StudentController extends Controller
 
     // add a new student
     public function store(Request $requset) {
-        $student = new Student;
 
+
+        $student = new Student;
         $student->name = $requset->input('name');
         $student->phone = $requset->input('phone');
         $student->course = $requset->input('course');
