@@ -39,7 +39,7 @@ Install all the dependencies using npm
 
 Start the local development server(for reactJs)
 
-   npm start
+    npm start
 
 You can now access the server at http://localhost:3000
 
